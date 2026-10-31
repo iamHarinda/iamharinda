@@ -31,7 +31,7 @@
     <path d="M576 56V124M624 56V124"/>
   </g>
   <g mask="url(#interlock)">
-    <ellipse class="draw" pathLength="1" cx="600" cy="90" rx="54" ry="17" transform="rotate(-18 600 90)" fill="none" stroke="#3D7BFF" stroke-width="2.5"/>
+    <ellipse cx="600" cy="90" rx="54" ry="17" transform="rotate(-18 600 90)" fill="none" stroke="#3D7BFF" stroke-width="2.5"/>
   </g>
   <circle cx="642.55" cy="67.6" r="5" fill="#3D7BFF"/>
   <circle class="orbiter" r="3.5" fill="#8C7BFF" style="offset-path: path('M651.36 73.31 A54 17 -18 1 1 548.64 106.69 A54 17 -18 1 1 651.36 73.31Z');"/>

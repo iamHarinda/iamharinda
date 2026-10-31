@@ -36,6 +36,10 @@ I care about clear interfaces, maintainable code, and shipping work that is genu
       End-to-end systems with Node.js, Express, PHP and Laravel: data models, APIs, and the interfaces on top.
     </td>
   </tr>
+</table>
+
+<!-- Two single-row tables: avoids GitHub's zebra striping on even rows. -->
+<table>
   <tr>
     <td width="50%" valign="top">
       <img src="./assets/icon-product.svg" width="32" height="32" alt=""><br>
@@ -112,7 +116,7 @@ Most of my product work lives in private repositories. Case studies and current 
 
 Always glad to talk about products, interfaces and interesting problems.
 
-**[iamharinda.com](https://iamharinda.com)** &nbsp;·&nbsp; [X @iamHarinda](https://x.com/iamHarinda) &nbsp;·&nbsp; [beacons.ai/harinda](https://beacons.ai/harinda) &nbsp;·&nbsp; [GitHub @iamHarinda](https://github.com/iamHarinda)
+**[iamharinda.com](https://iamharinda.com)** &nbsp;·&nbsp; [X&nbsp;@iamHarinda](https://x.com/iamHarinda) &nbsp;·&nbsp; [beacons.ai/harinda](https://beacons.ai/harinda) &nbsp;·&nbsp; [GitHub&nbsp;@iamHarinda](https://github.com/iamHarinda)
 
 <br>
 

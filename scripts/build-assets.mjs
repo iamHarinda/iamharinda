@@ -296,7 +296,8 @@ function hero(name) {
 
 // ── Footer ────────────────────────────────────────────────────────────────
 // The orbital-H monogram between two fading hairlines. Transparent so it
-// sits directly on the GitHub page.
+// sits directly on the GitHub page. The mark itself never animates; only the
+// small orbiting node moves.
 function footer(name) {
   const t = themes[name];
   const W = 1200;
@@ -343,7 +344,7 @@ function footer(name) {
     <path d="M${cx - stemX} ${cy - 34}V${cy + 34}M${cx + stemX} ${cy - 34}V${cy + 34}"/>
   </g>
   <g mask="url(#interlock)">
-    <ellipse class="draw" pathLength="1" cx="${cx}" cy="${cy}" rx="${orbit.rx}" ry="${orbit.ry}" transform="rotate(${rot} ${cx} ${cy})" fill="none" stroke="${brand.electric}" stroke-width="2.5"/>
+    <ellipse cx="${cx}" cy="${cy}" rx="${orbit.rx}" ry="${orbit.ry}" transform="rotate(${rot} ${cx} ${cy})" fill="none" stroke="${brand.electric}" stroke-width="2.5"/>
   </g>
   <circle cx="${node[0]}" cy="${node[1]}" r="5" fill="${brand.electric}"/>
   <circle class="orbiter" r="3.5" fill="${brand.violet}" style="offset-path: path('${ellipsePath(cx, cy, orbit.rx, orbit.ry, rot)}');"/>
